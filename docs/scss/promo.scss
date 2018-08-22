@@ -1,0 +1,54 @@
+.promo {
+  background: url('../img/promo-bg.png') no-repeat 50% bottom /cover;
+  min-height: 100%;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.promo__inner {
+  max-width: 1170px;
+  margin: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 24.7rem;
+}
+
+.promo__title {
+  margin: 0 0 2rem;
+  font-size: 9.763rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: .8;
+}
+
+.promo__desc {
+  margin: 0 0 7.4rem;
+  font-weight: 500;
+  font-size: 1.586vw;
+  text-transform: uppercase;
+  color: #11749e;
+  line-height: 1;
+  letter-spacing: 1.35rem;
+}
+
+.promo__scroll {
+
+}
+
+.promo__scroll-txt {
+  display: block;
+  font-size: .832rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1.4rem;
+}
+
+.promo__scroll-btn {
+  width: 4.3rem;
+  height: 4.3rem;
+  color: #fff;
+  border: .1rem solid #fff;
+  background: 0 0;
+  border-radius: 100%;
+  font-size: 1.8rem;
+  line-height: 1;
+}

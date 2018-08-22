@@ -1,0 +1,31 @@
+@import 'variables';
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header__inner {
+  padding: 58px 0 56px;
+  max-width: $max-width;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 30px;
+
+  img {
+    vertical-align: top;
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
